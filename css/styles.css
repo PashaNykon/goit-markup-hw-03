@@ -13,7 +13,13 @@ body {
   color: var(--main-color);
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -24,7 +30,7 @@ ul {
 
 img {
   display: block;
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
 }
 
@@ -62,15 +68,13 @@ img {
   overflow: hidden;
 }
 
-
-
 /* ======================INDEX.HTML======================= */
 /* -----------------------HEADER------------------------ */
 
 .header {
- padding-top: 24px;
- padding-bottom: 24px;
- border-bottom: 1px solid var(--footer-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--footer-text-color);
 }
 
 .container-flex {
@@ -87,7 +91,6 @@ img {
 }
 
 .header-nav {
-
 }
 
 .logo {
@@ -139,7 +142,6 @@ img {
   gap: 40px;
 }
 
-
 .header-address-item {
 }
 
@@ -175,15 +177,13 @@ img {
  }
 
 .hero-title {
+  text-align: center;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--herotitlebtn-filterbtn-hover);
   margin-bottom: 48px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
  }
 
 .hero-btn {
@@ -235,7 +235,6 @@ img {
 /* --------------------------------PRODUCTS----------------------------- */
 
 .products {
-  padding-bottom: 120px;
 
 }
 
@@ -253,7 +252,7 @@ img {
 }
 
 .product-item {
-  width: calc((100% - 48 ) / 3);
+  width: calc((100% - 48) / 3);
 }
 
 /* ------------------------------------OUR TEAM----------------------------- */
@@ -282,7 +281,6 @@ img {
 .employees {
   padding: 32px 16px;
   text-align: center;
-
 }
 
 .team-name {
@@ -320,7 +318,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--filterbtn-footerlogo-team);
- }
+}
 
 .footer-text {
   display: block;
@@ -329,21 +327,21 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
- }
+}
 
 /* ======================PORTFOLIO.HTML======================= */
 
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  }
+}
 
 .portfolio-filter-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
- }
+}
 
 .portfolio-filter-item {
 }
@@ -368,15 +366,14 @@ img {
 }
 
 .porfolio-list {
- display: flex;
- flex-wrap: wrap;
- column-gap: 24px;
- row-gap: 48px;
-
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .porfolio-item {
-  width: calc(( 100% - 48 ) / 3 );
+  width: calc((100% - 48) / 3);
 }
 
 .portfolio-title {
@@ -391,7 +388,7 @@ img {
   border-left: 1px solid var(--footer-text-color);
   border-right: 1px solid var(--footer-text-color);
   border-bottom: 1px solid var(--footer-text-color);;
-  padding: 32px 16px;
+  
 }
 
 .portfolio-text {
