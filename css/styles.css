@@ -173,7 +173,8 @@ img {
 
 .hero {
   background-color: var(--main-color);
-  padding: 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
  }
 
 .hero-title {
